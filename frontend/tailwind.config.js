@@ -1,0 +1,81 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        amex: {
+          50: '#e6f2ff',
+          100: '#b3d9ff',
+          200: '#80bfff',
+          300: '#4da6ff',
+          400: '#1a8cff',
+          500: '#006FCF',
+          600: '#0059a6',
+          700: '#00437d',
+          800: '#002d54',
+          900: '#00172b',
+        },
+        gold: {
+          50: '#fffbeb',
+          100: '#fef3c7',
+          200: '#fde68a',
+          300: '#fcd34d',
+          400: '#fbbf24',
+          500: '#f59e0b',
+          600: '#d97706',
+          700: '#b45309',
+          800: '#92400e',
+          900: '#78350f',
+        },
+        platinum: {
+          50: '#f8fafc',
+          100: '#f1f5f9',
+          200: '#e2e8f0',
+          300: '#cbd5e1',
+          400: '#94a3b8',
+          500: '#64748b',
+          600: '#475569',
+          700: '#334155',
+          800: '#1e293b',
+          900: '#0f172a',
+        },
+        success: {
+          500: '#10b981',
+          600: '#059669',
+        },
+        warning: {
+          500: '#f59e0b',
+          600: '#d97706',
+        },
+        danger: {
+          500: '#ef4444',
+          600: '#dc2626',
+        },
+        dark: {
+          50: '#0f172a',
+          100: '#1e293b',
+          200: '#334155',
+          300: '#475569',
+          400: '#64748b',
+          500: '#94a3b8',
+          600: '#cbd5e1',
+          700: '#e2e8f0',
+          800: '#f1f5f9',
+          900: '#f8fafc',
+        },
+      },
+      backgroundImage: {
+        'gradient-amex': 'linear-gradient(135deg, #006FCF 0%, #0059a6 100%)',
+        'gradient-gold': 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)',
+        'gradient-dark': 'linear-gradient(135deg, #1e293b 0%, #0f172a 100%)',
+      },
+      boxShadow: {
+        'glow-amex': '0 0 20px rgba(0, 111, 207, 0.4)',
+        'glow-gold': '0 0 20px rgba(245, 158, 11, 0.4)',
+      },
+    },
+  },
+  plugins: [],
+}

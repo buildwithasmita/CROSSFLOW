@@ -1,0 +1,10 @@
+.venv/
+Backend/venv/
+Backend/__pycache__/
+Backend/.env
+Backend/data/models/*.joblib
+frontend/node_modules/
+frontend/build/
+frontend/.env
+.DS_Store
+*.pyc
