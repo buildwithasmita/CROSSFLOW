@@ -61,6 +61,16 @@ Use the notebook at `Backend/notebooks/train_model.ipynb` or train directly from
 
 `Backend/data/models/crossflow_model.joblib`
 
+## Current Model Metrics
+
+Latest local validation run on the generated synthetic dataset:
+
+- Accuracy: `0.62`
+- Precision: `0.356`
+- Recall: `0.356`
+- F1 Score: `0.356`
+- ROC-AUC: `0.593`
+
 ## API
 
 - Root: `http://localhost:8000/`
